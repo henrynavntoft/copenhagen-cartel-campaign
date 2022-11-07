@@ -1,0 +1,10 @@
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: beige;
+  padding: 2rem;
+}
