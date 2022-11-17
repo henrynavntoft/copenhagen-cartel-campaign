@@ -24,9 +24,9 @@ function showProduct(product) {
   clone.querySelector("img").src =
     product._embedded[
       "wp:featuredmedia"
-    ][0].media_details.sizes.medium.source_url;
+    ][0].media_details.sizes.medium_large.source_url;
   //Selection where i want the clone
-  const parent = document.querySelector("main");
+  const parent = document.querySelector("main section.product");
   //Appending it
   parent.appendChild(clone);
 }
