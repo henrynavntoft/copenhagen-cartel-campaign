@@ -134,6 +134,13 @@ footer .social-footer {
   max-width: 15rem;
 }
 
+.goto-product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
 button {
   padding: 1rem;
   display: inline-flex;
