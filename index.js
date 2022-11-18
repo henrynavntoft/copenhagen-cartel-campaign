@@ -26,7 +26,7 @@ function showProduct(product) {
       "wp:featuredmedia"
     ][0].media_details.sizes.medium_large.source_url;
   //Selection where i want the clone
-  const parent = document.querySelector("main section.product");
+  const parent = document.querySelector("main .product-feed");
   //Appending it
   parent.appendChild(clone);
 }
