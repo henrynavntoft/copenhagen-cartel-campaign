@@ -16,6 +16,7 @@ function showProduct(product) {
   const template = document.querySelector("template").content;
   const clone = template.cloneNode(true);
   // Change stuff
+  clone.querySelector("a.goto").href = `product.html?id=${product.id}`;
   clone.querySelector("h3").textContent = product.brand;
   clone.querySelector("h2").textContent = product.title.rendered;
   clone.querySelector("p.price").textContent = product.price;

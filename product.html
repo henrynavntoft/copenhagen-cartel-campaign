@@ -5,25 +5,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Product / Campaign</title>
 </head>
 
 <body>
-    <div class="product">
-        <h2></h2>
-        <h3></h3>
-        <br>
-        <img src="" alt="">
-        <br>
-        <p>Price:</p>
-        <p class="price"></p>
-        <br>
-        <p>Color:</p>
-        <p class="colors"></p>
-        <br>
-        <p>Stock:</p>
-        <p class="stock"></p>
-    </div>
+    <header class="header">
+        <section>
+            <nav role="navigation">
+                <div id="menuToggle"> <input id="burgermenu" type="checkbox" /> <input type="checkbox"
+                        id="burgermenu" />
+                    <span></span>
+                    <span></span> <span></span>
+                    <ul class="menu">
+                        <div class="wrap-collabsible menu-heading"> <input id="collapsible1" class="toggle"
+                                type="checkbox" /> <label for="collapsible1" class="lbl-toggle">Swimwear</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner"> <a class="menu-subing" href="">
+                                        <li>Categories</li>
+                                    </a> <a class="menu-subing" href="">
+                                        <li>Collections</li>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-collabsible menu-heading"> <input id="collapsible2" class="toggle"
+                                type="checkbox" /> <label for="collapsible2" class="lbl-toggle">Sportswear</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner"> <a class="menu-subing" href="">
+                                        <li>Categories</li>
+                                    </a> <a class="menu-subing" href="">
+                                        <li>Collections</li>
+                                    </a> </div>
+                            </div>
+                        </div>
+                        <div class="wrap-collabsible menu-heading"> <input id="collapsible3" class="toggle"
+                                type="checkbox" /> <label for="collapsible3" class="lbl-toggle">About Us</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner"> <a class="menu-subing" href="">
+                                        <li>Categories</li>
+                                    </a> <a class="menu-subing" href="">
+                                        <li>Collections</li>
+                                    </a> </div>
+                            </div>
+                        </div>
+                        <div class="wrap-collabsible menu-heading"> <input id="collapsible4" class="toggle"
+                                type="checkbox" /> <label for="collapsible4" class="lbl-toggle">Responsibility</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner"> <a class="menu-subing" href="">
+                                        <li>Categories</li>
+                                    </a> <a class="menu-subing" href="">
+                                        <li>Collections</li>
+                                    </a> </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <a href="index.html" class="logo"> <img src="assets/CC_horizontal_Logo@2x.png" alt="xd" /></a>
+        </section>
+        <section>
+            <a href="index.html" class="cart"> <img src="assets/cart.png" alt="xd" /></a>
+        </section>
+    </header>
+    <main>
+        <section class="product-feed">
+            <template>
+                <div class="product">
+                    <h2></h2>
+                    <h3></h3>
+                    <br>
+                    <img src="" alt="">
+                    <br>
+                    <p>Price:</p>
+                    <p class="price"></p>
+                    <br>
+                    <p>Color:</p>
+                    <p class="colors"></p>
+                    <br>
+                    <p>Stock:</p>
+                    <p class="stock"></p>
+                    <br>
+                    <a class="goto" href=""><button>Shop now</button></a>
+                </div>
+            </template>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-logo">
+            <img src="assets/CC_logo_horizontal_FoamWhite@2x.png" alt="">
+            <h3>Make the ocean matter.</h3>
+        </section>
+        <section class="social-footer">
+            <h3>Connect</h3>
+            <div class="footer-social-link">
+                <img src="assets/facebook-logo.svg" alt="">
+                <img src="assets/instagram-logo.svg" alt="">
+                <img src="assets/linkedin-logo.svg" alt="">
+                <img src="assets/tik-tok-logo.svg" alt="">
+            </div>
+        </section>
+        <section>
+            <h3>Service</h3>
+            <hr>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+        </section>
+        <section>
+            <h3>Shop</h3>
+            <hr>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+        </section>
+        <section>
+            <h3>About us</h3>
+            <hr>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+            <p>point</p>
+        </section>
+    </footer>
 </body>
 <script src="product.js"></script>
 

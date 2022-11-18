@@ -145,6 +145,10 @@ button {
   border-radius: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 button:hover {
   background-color: #fc6d3a;
 }
