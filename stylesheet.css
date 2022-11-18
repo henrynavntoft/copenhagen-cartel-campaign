@@ -89,6 +89,8 @@ footer .social-footer {
 .newsletter-signup {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background-color: #0b25b7;
   color: #ffffff;
@@ -96,6 +98,8 @@ footer .social-footer {
 }
 
 .newsletter-signup form input {
+  justify-content: center;
+  align-items: center;
   font-family: "satoshi";
   padding: 0 1.6rem;
   border: 0.1rem solid #0b25b7;
@@ -108,9 +112,10 @@ footer .social-footer {
 .product-feed {
   background-color: #fbfafc;
   display: grid;
+  justify-content: center;
   grid-gap: 2rem;
   padding: 5rem;
-  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
 }
 
 .product {
@@ -126,7 +131,7 @@ footer .social-footer {
 
 .product img {
   border-radius: 0.5rem;
-  max-width: 20rem;
+  max-width: 15rem;
 }
 
 button {
