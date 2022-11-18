@@ -113,12 +113,6 @@ footer .social-footer {
   grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
 }
 
-/* @media screen and (max-width: 1000px) {
-  .product-feed {
-    grid-template-columns: 1fr;
-  }
-} */
-
 .product {
   display: flex;
   flex-direction: column;
