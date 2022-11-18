@@ -10,9 +10,8 @@ fetch(url)
 
 function showProduct(product) {
   console.log(product);
-  document.querySelector(".productName").textContent =
-    product.productdisplayname;
-  document.querySelector(".ID").textContent = product.id;
+  document.querySelector(h1).textContent = product.productdisplayname;
+  document.querySelector(h2).textContent = product.id;
   document.querySelector(".section-brand").textContent = product.fashiontype;
   document.querySelector(
     "img.productImg"
