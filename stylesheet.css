@@ -311,3 +311,40 @@ input[type="checkbox"] {
 .collapsible-content p {
   margin-bottom: 0;
 }
+/*--------------------------Monika Friday edits-------------------------------*/
+
+/* monika: PRICE */
+.price {
+  border: 1px solid hotpink;
+}
+.price span {
+  padding-left: 0.5rem;
+}
+/* monika: STOCK */
+.inStock {
+  border: 1px solid hotpink;
+}
+.inStock span {
+  padding-left: 0.5rem;
+}
+
+/* monika: COLORS */
+.colour {
+  display: flex;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.4rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.colour li {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  border: 0.1px solid transparent;
+}
